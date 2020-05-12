@@ -1,37 +1,98 @@
 <!DOCTYPE html>
     <head>
-        <title> Virgínia Duca</title>
+        <title > Virgínia Duca</title>
         <meta charset="utf-8">
+        <style>
+
+            *{
+                margin:0;
+                padding:0;
+            }
+
+            body {
+            background-color: #E0E0E2;
+            font-family: garamond, sans-serif;
+            color: #476788;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            .text-format{
+                font-size: 16px;
+                line-height: 1.5em;
+                text-align: justify;
+            }
+            .titles {
+                font-family: dot, serif;
+                text-align: center;
+            }
+
+            #nome{
+                background-color: #BAB5D0;
+                margin: 30px 0px;
+                padding: 20px 25px;
+                border-top-style: inset;
+                border-top-color: #7389ae;
+                border-top-width: 7px;
+                border-bottom-style: inset;
+                border-bottom-color: #7389ae;
+                border-bottom-width: 7px;
+                
+            }
+
+            #index{
+                width: 50%;
+                margin: auto;
+            }
+
+            #sobre-mim{
+                width: 50%;
+            }
+
+            #foto-virginia{
+                border-style: inset;
+                border-color: #7389ae;
+                border-width: 7px
+            }
+        </style>
     </head>
     <body>
-
-        <h1>Virgínia Menezes Bontempo Duca</h1>
-
-        <h2>Índice</h2>
-        <ul>
+        <div id="nome" class="borders">
+        <h1 class="titles">Virgínia Menezes Bontempo Duca</h1>
+        </div>
+        <div id="index">
+            <h2>Índice</h2>
+            <ul>
             <li><a href="#descricao-virginia">Descricao</a></li>
             <li><a href="#sobre-virginia">Um pouco sobre mim</a></li>
             <li><a href="#foto-virginia">Foto</a></li>
             <li><a href="#habilidades-virignia">Habilidades</a></li>
-        </ul>
-
-        <h2 id="descricao-virginia"> Descricao</h2>
-
-        <p>Olá! Meu nome é Virgínia, tenho 25 anos, sou brasileira e moro em Belo horizonte, Minas Gerais.</p>
-
-        <h2 id="sobre-virginia">Um pouco sobre mim</h2>
-
-        <p>Atualmente sou estudante de <strong>desenvolvimento de software</strong> na escola <strong>Trybe</strong> de programacao, mas sou bíologa por formacao ! Em 2019 terminei meu bacharelado em ciencias biológicas na UFMG, gostei muito do meu curso e adoro aprender sobre biologia, mas em 2020 decidir perseguir minha antiga aspiracao de atuar na área de tecnologia ! Quero contribuir com o mundo de alguma maneira e acredito que a tecnologia é uma ótima ferramenta para isso, para ajudar a facilitar a vida das pessoas.</p>
-        <img id="foto-virginia" src="https://github.com/virginia-duca/portifolio/blob/master/aula3_1_html/fotocolacao.jpg?raw=true" alt="Foto de colacao de grau da Virginia" width="50"> 
-
-        <h2 id="habilidades-virginia">Habilidades</h2>
-            <p> Algumas habilidades que adquiri ao long do meu curso de programacao na Trybe</p>
-            <ul>
-                <li>Uso da linha de comando</li>
-                <li>ShellScript</li>
-                <li>Git e GitHub</li>
-                <li>HTML</li>
             </ul>
+        </div>
+        <div>
+            <h2 id="descricao-virginia"> Descrição</h2>
 
+            <p class="text-color text-format">Olá! Meu nome é Virgínia, tenho 25 anos, sou brasileira e moro em Belo horizonte, Minas Gerais.</p>
+        </div>
+        <div  id="sobre-mim">
+            <h2 id="sobre-virginia">Um pouco sobre mim</h2>
+
+            <p class="text-color text-format">Atualmente sou estudante de <strong>desenvolvimento de software</strong> na escola <strong>Trybe</strong> de programacao, mas sou bíologa por formacao ! Em 2019 terminei meu bacharelado em ciencias biológicas na UFMG, gostei muito do meu curso e adoro aprender sobre biologia, mas em 2020 decidir perseguir minha antiga aspiracao de atuar na área de tecnologia ! Quero contribuir com o mundo de alguma maneira e acredito que a tecnologia é uma ótima ferramenta para isso, para ajudar a facilitar a vida das pessoas.</p>
+        </div>
+        
+        <img id="foto-virginia" src="https://github.com/virginia-duca/portifolio/blob/master/aula3_1_html/fotocolacao.jpg?raw=true" alt="Foto de colacao de grau da Virginia" width="300"> 
+        
+        <div>
+            <h2 id="habilidades-virginia">Habilidades</h2>
+                <p  class="text-color text-format"> Algumas habilidades que adquiri ao long do meu curso de programacao na Trybe</p>
+                <ul>    
+                    <li>Uso da linha de comando</li>
+                    <li>ShellScript</li>
+                    <li>Git e GitHub</li>
+                    <li>HTML</li>
+                </ul>
+        </div>        
         <a href="https://www.betrybe.com/">Saiba mais sobre a Trybe aqui !</a>
     </body>
